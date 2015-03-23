@@ -24,7 +24,6 @@ import android.widget.TextView;
 import com.luciofm.paleta.util.SpacesItemDecoration;
 import com.luciofm.paleta.util.Utils;
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Request;
 import com.squareup.picasso.RequestCreator;
 
 import butterknife.ButterKnife;
