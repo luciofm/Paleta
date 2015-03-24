@@ -49,7 +49,6 @@ public class PaletteActivity extends ActionBarActivity {
         String action = intent.getAction();
         String type = intent.getType();
 
-
         if (Intent.ACTION_SEND.equals(action) && type != null && type.startsWith("image/")) {
             List<Uri> images = new ArrayList<>();
             images.add(intent.getParcelableExtra(Intent.EXTRA_STREAM));
